@@ -1,5 +1,7 @@
 .part{
     text-align: center;
-    margin-top: 100px;
-    
+    margin-top: 80px;  
+}
+.fluid{
+    filter: brightness(60%);
 }
