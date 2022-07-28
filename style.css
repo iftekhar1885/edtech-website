@@ -1,7 +1,49 @@
-.part{
-    text-align: center;
-    margin-top: 80px;  
+
+.carousel-inner{
+    justify-content: center;
+    margin: 40px;
+    border-radius: 20px;
 }
 .fluid{
     filter: brightness(60%);
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 30px;
+    
+    
+}
+.course-1{
+    width: 100%;
+}
+
+
+ .carousel-caption{
+    height: 100;
+     
+}
+.model{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .carousel-caption{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+    @media only screen and (max-width: 576px) {
+        .carousel-caption{
+            flex-direction:column-reverse;
+            
+        }
+}
+@media  only screen and (max-width:500) {
+    .course-1{
+        grid-template-columns: repeat(1,1fr);
+    }
+    @media only screen and (max-width:500) {
+        .course-1{
+            flex-direction: row-reverse;
+        }
+    }
 }
