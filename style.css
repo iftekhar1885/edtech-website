@@ -37,11 +37,11 @@
             
         }
 }
-@media  only screen and (max-width:500) {
+@media  only screen and (max-width:576) {
     .course-1{
         grid-template-columns: repeat(1,1fr);
     }
-    @media only screen and (max-width:500) {
+    @media only screen and (max-width:576) {
         .course-1{
             flex-direction: row-reverse;
         }
